@@ -15,7 +15,7 @@
 
 ## Risks ##
 * low/medium
-### Development Env###
+### Development Env ###
 
 • Install vagrant
 
@@ -25,8 +25,8 @@
 
 • sudo apt-get update -y
 
-# Creating a virtual mechine with Linux Ubuntu 16.04
-# Ubuntu/xenial64
+#Creating a virtual mechine with Linux Ubuntu 16.04
+#Ubuntu/xenial64
 
 Vagrant.configure("2") do |config|
 
@@ -70,7 +70,7 @@ end
 - redo all the steps
 - install nginx and load it in the browser
 
-## Commandz ##
+## Commands ##
 * head -2
 * tail -2
 * pipping: command_1 | command_2 | command_3 | .... | command_N 
