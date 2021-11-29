@@ -1,4 +1,20 @@
 # SpartaRepos
+
+## What is DevOps ##
+* Breaking the silo between Dev and Ops
+* Create a better culture
+## Why DevOPs ##
+* Save costs
+* Products efficiency
+* faster deployments
+## 4 pillars of DevOps ##
+* Work together
+* Share responsibility
+* Deploy Infrastructure as code
+* Automate pipeline
+
+## Risks ##
+* low/medium
 ### Development Env###
 
 • Install vagrant
@@ -30,7 +46,7 @@ config.vm.network "private_network", ip: "192.168.10.100"
  #vagrant reload
 end 
 
-* Who am I "uname -a"
+* Who am I 'uname -a'
 * where am I 'pwd'
 * list dir or all 'ls' or 'ls-1
 * copy file 'cp filename destination'
@@ -53,3 +69,13 @@ end
 - vagrant up again
 - redo all the steps
 - install nginx and load it in the browser
+
+## Commandz ##
+* head -2
+* tail -2
+* pipping: command_1 | command_2 | command_3 | .... | command_N 
+
+cat myfile | head -2 | tail -2
+
+
+
