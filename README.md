@@ -2,6 +2,7 @@
 ### Development Env###
 
 • Install vagrant
+
 • Install Ruby
 
 ## Linux Commands ##
@@ -15,25 +16,31 @@ Vagrant.configure("2") do |config|
 
 #Choose the os/box/distro
  config.vm.box = "ubuntu/xenial64"
+
 config.vm.network "private_network", ip: "192.168.10.100"
+
 #config.vm.network "private_network", ip: "192.168.56.0/21" (if firewall preveting the network config, use the local port below)
- #config.vm.network "forwarded_port", guest: 80, host: 8081
- #vagrant destroy
- #vagrant up
+ 
+ #config.vm.network "forwarded_port", guest: 80, host: 8081.
+ 
+#vagrant destroy
+ 
+#vagrant up
+ 
  #vagrant reload
 end 
 
 * Who am I "uname -a"
--where am I 'pwd'
--list dir or all 'ls' or 'ls-1
-- copy file 'cp filename destination'
-- create file 'touch filename'
--create folder'mkdir filename'
--how to nevagate ' cd foldername'
-- deleting file folder 'rm -rf foldername'
+* where am I 'pwd'
+* list dir or all 'ls' or 'ls-1
+* copy file 'cp filename destination'
+* create file 'touch filename'
+* create folder'mkdir filename'
+* how to nevagate ' cd foldername'
+* deleting file folder 'rm -rf foldername'
 
 
-- **File Permisssions**
+ **File Permisssions**
 
 - Read 'r', Write 'w' and excutable 'x'
 - how to check permissions 'll'
@@ -43,6 +50,6 @@ end
 ### Automate everything we have done manually###
 
 - provision the steps of updating, upgrading and install nginx
-* vagrant up again
-* redo all the steps
-* install nginx and load it in the browser
+- vagrant up again
+- redo all the steps
+- install nginx and load it in the browser
