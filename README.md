@@ -28,7 +28,7 @@
 
 ## Linux Commands ##
 
-• sudo apt-get update -y
+• `sudo apt-get update -y`
 
 #Creating a virtual mechine with Linux Ubuntu 16.04
 #Ubuntu/xenial64
@@ -51,24 +51,24 @@ config.vm.network "private_network", ip: "192.168.10.100"
  #vagrant reload
 end 
 
-* Who am I *uname -a*
-* where am I *pwd*
-* list dir or all *ls* or *ls-a*
-* copy file *'cp filename destination'*
-* create file *'touch filename'*
-* create folder *mkdir filename*
-* how to nevagate *cd foldername* return *cd ..*
-* deleting file folder *rm -rf foldername*
-* cut or rename *mv filename destination*
+* Who am I `uname -a`
+* where am I `pwd`
+* list dir or all `ls` or `ls-a`
+* copy file `cp filename destination`
+* create file `touch filename`
+* create folder `mkdir filename`
+* how to nevagate `cd foldername` to return `cd ..`
+* deleting file folder `rm -rf foldername`
+* cut or rename `mv filename destination`
 
 
  **File Permisssions**
 
-- Read *r*, Write *w* and excutable *x*
-- how to check permissions *ll*
-- change permission *chmod' permission r, w or x filename*
-- find out all processes running *top*
--how to *kill* a process
+- Read `r` Write `w` and excutable `x`
+- how to check permissions `ll`
+- change permission `chmod` permission `r` `w` or `x` `filename`
+- find out all processes running `top`
+-how to `kill` a process
 ### Automate everything we have done manually ###
 
 - provision the steps of updating, upgrading and install nginx
@@ -79,10 +79,10 @@ end
 ## Commands ##
 * head -2
 * tail -2
-* pipping: command_1 | command_2 | command_3 | .... | command_N 
-* A pipe is a form of redirection (transfer of standard output to some other destination) that is used in Linux and other Unix-like operating systems to send the output of one command/program/process to another command/program/process for further processing. ... You can make it do so by using the pipe character '|'.
+* pipping: `command_1 | command_2 | command_3 | .... | command_N` 
+* A pipe is a form of redirection (transfer of standard output to some other destination) that is used in Linux and other Unix-like operating systems to send the output of one command/program/process to another command/program/process for further processing. ... You can make it do so by using the pipe character `|`.
 
-cat myfile | head -2 | tail -2
+`cat myfile | head -2 | tail -2`
 
 
 
